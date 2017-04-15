@@ -326,9 +326,9 @@ body, .h0, h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.product-thumbs { vertical-align: bottom; }
+.v-align-bottom { vertical-align: bottom; }
 @media (min-width: 40em) {
-  .product-thumbs { vertical-align: top; }
+  .sm-v-align-top { vertical-align: top; }
 }
 
 .thumb-border { border: 3px solid rgb(36, 56, 83); }
