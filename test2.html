@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/dist/basscss@7.1.1.min.css">
     <link rel="stylesheet" href="css/dist/font-awesome@4.7.0.CUSTOM.css">
     <link rel="stylesheet" href="css/dist/az.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
     <!-- <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="{{ site.live_api_key }}" id="snipcart"></script>
     <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" /> -->
     <title>Azellaz Purchase Test</title>
@@ -21,102 +21,105 @@
   </head>
 
   <body>
+
     <header class="col-12 p2 container flex align-items-center justify-center sm-align-start sm-justify-between">
 
-        <div class="sm-show">
-          <a href="#">
-            <img src="images/Azellaz_Logo_Soft_Black_v6.svg" class="w-45px md-w-55px" alt="">
-          </a>
-        </div>
+      <div class="sm-show">
+        <a href="../">
+          <img src="../images/Azellaz_Logo_Soft_Black_v6.svg" class="w-45px md-w-55px" alt="">
+        </a>
+      </div>
 
-        <nav class="flex flex-center">
-          <div class="flex justify-between align-items-center">
-            <div class="sm-hide">
-              <!-- this gets replaced with AZ logo when ready -->
-              <a href="#">
-                <img src="images/AZ_logo_soft_black_on_trans_bg.png" alt="Azellaz logo" title="Azellaz logo" class="btn height2r">
-              </a>
-            </div>
-            <div class="pointer sm-mr2">
-              <a href="/index.html#shop" class="btn regular btn-outline h5 sm-h4 light-black">shop</a>
-            </div>
-            <div class="pointer">
-              <a href="/about" class="btn regular h5 sm-h4 light-black hover-underline">about</a>
-            </div>
-            <div class="pointer">
-              <a href="/contact" class="btn regular h5 sm-h4 light-black hover-underline">contact</a>
-            </div>
+      <nav class="flex flex-center">
+        <div class="flex justify-between align-items-center">
+          <div class="sm-hide">
+            <a href="../">
+              <img src="../images/Azellaz_logo_short_soft_black_by_Thom_01.svg" alt="Azellaz logo" title="Azellaz logo" class="btn height2r">
+            </a>
           </div>
-        </nav>
+          <div class="pointer sm-mr2">
+            <a href="../index.html#shop" class="btn regular btn-outline h5 sm-h4 light-black">shop</a>
+          </div>
+          <div class="pointer">
+            <a href="../about" class="btn regular h5 sm-h4 light-black hover-underline">about</a>
+          </div>
+          <div class="pointer">
+            <a href="../contact" class="btn regular h5 sm-h4 light-black hover-underline">contact</a>
+          </div>
+        </div>
+      </nav>
 
-      </header>
+    </header>
 
-<div class="ie-FlexContainerWrapper">
-  <div class="vh100 container flex justify-end">
+    <div class="vh100 container mb1 md-mb0">
 
-    <!-- <div id="logo" class="fixed left-0 ml2 mt2 top-0" style="">
-      <a href="/index.html#shop" class="hover-no-underline">
+      <div class="col md-col-7 p2">
+
+        <div class="sm-hide"><!-- have to double up this component because ie's lack of flexbox column support -->
+          <div class="py2 mxn1 table">
+
+            <div class="table-cell col-3 px1 product-thumbs">
+              <img class="thumb border pointer border-box" src="https://placehold.it/800" />
+            </div>
+            <div class="table-cell col-3 px1 product-thumbs">
+              <img class="thumb border pointer border-box" src="https://placehold.it/800" />
+            </div>
+            <div class="table-cell col-3 px1 product-thumbs">
+              <img class="thumb border pointer border-box" src="https://placehold.it/800" />
+            </div>
+            <div class="table-cell col-3 px1 product-thumbs">
+              <img class="thumb border pointer border-box" src="https://placehold.it/800" />
+            </div>
+
+          </div>
+        </div>
+
         <div>
-          <img src="images/Azellaz_Logo_Soft_Black_v6.svg" class="" alt="" width="">
-          <span class="block h5 center light-black">← return</span>
-        </div>
-      </a>
-    </div> -->
-
-    <div class="col-7 p2 flex flex-column">
-      <!-- <nav>
-        <p>category 1 > category 2 > final</p>
-      </nav> -->
-      <div>
-        <img src="https://placehold.it/1000x800" class="mbn1"/>
-      </div>
-
-      <div class="flex flex-row py2 mxn1">
-
-        <div class="flex-auto ml1 mr1">
-          <img src="https://placehold.it/500"/>
+          <img id="large-image-view" src="https://placehold.it/2000x1000" class="mbn1" />
         </div>
 
+        <div class="sm-show"><!-- have to double up this component because ie's lack of flexbox column support -->
+          <div class="py2 mxn1 table">
 
-        <div class="flex-auto ml1 mr1">
-          <img src="https://placehold.it/500"/>
-        </div>
+            <div class="table-cell col-3 px1 product-thumbs">
+              <img class="thumb border pointer border-box" src="https://placehold.it/800" />
+            </div>
+            <div class="table-cell col-3 px1 product-thumbs">
+              <img class="thumb border pointer border-box" src="https://placehold.it/800" />
+            </div>
+            <div class="table-cell col-3 px1 product-thumbs">
+              <img class="thumb border pointer border-box" src="https://placehold.it/800" />
+            </div>
+            <div class="table-cell col-3 px1 product-thumbs">
+              <img class="thumb border pointer border-box" src="https://placehold.it/800" />
+            </div>
 
-
-        <div class="flex-auto ml1 mr1">
-          <img src="https://placehold.it/500"/>
-        </div>
-
-
-        <div class="flex-auto ml1 mr1">
-          <img src="https://placehold.it/500"/>
+          </div>
         </div>
 
       </div>
-    </div>
 
-    <div class="col-5 p2">
-      <h1 class="m0 h2 serif light-black">Testing Test Tester</h1>
-      <p class="h2 serif light-black">$1.00</p>
-      <p class="serif light-black">This is just a test.</p>
-      <div class="mt4">
-        <button
-          class="btn btn-outline fw200 light-black snipcart-add-item"
-          data-item-id="azTEST"
-          data-item-name="Testing Test Tester"
-          data-item-price="1.00"
-          data-item-url="https://www.azellaz.com/test.html"
-          data-item-description="This is just a test."
-          data-item-weight="1"
-          data-item-height="1"
-          data-item-width="1"
-          data-item-length="1">
-          Add to Cart
-        </button>
+      <div class="col md-col-5 p2">
+        <h1 class="m0 h2 serif light-black">Testing Test Tester</h1>
+        <p class="h2 serif light-black">$1.00</p>
+        <p class="serif light-black">This is just a test.</p>
+        <div class="mt4">
+          <button
+            class="btn btn-outline fw200 light-black snipcart-add-item"
+            data-item-id="azTEST"
+            data-item-name="Testing Test Tester"
+            data-item-price="1.00"
+            data-item-url="https://www.azellaz.com/test.html"
+            data-item-description="This is just a test."
+            data-item-weight="1"
+            data-item-height="1"
+            data-item-width="1"
+            data-item-length="1">
+            Add to Cart
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
     <footer class="bg-gray px2">
       <div class="py3 md-py4">
