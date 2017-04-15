@@ -1,0 +1,34 @@
+{
+  "name": "Azellaz.com",
+  "version": "1.0.0",
+  "description": "Dev space for Azellaz.com",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "postcss -u autoprefixer cssnano -d css/dist/ css/src/*.css --no-map --watch",
+    "start": "npm run css & jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianzelip/Azellaz.com.git"
+  },
+  "keywords": [
+    "fine",
+    "leather",
+    "goods"
+  ],
+  "author": "bzelip",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianzelip/Azellaz.com/issues"
+  },
+  "homepage": "https://github.com/brianzelip/Azellaz.com#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-cli": "^6.24.0",
+    "cssnano": "^3.10.0",
+    "postcss": "^5.2.16",
+    "postcss-cli": "^3.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+---
+permalink: /contact/
+---
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="/css/dist/basscss@7.1.1.min.css">
+    <link rel="stylesheet" href="/css/dist/font-awesome@4.7.0.CUSTOM.css">
+    <link rel="stylesheet" href="/css/dist/az.css">
+    <title>Azellaz</title>
+    <meta name="description" content="">
+    <meta name="author" content="Abbie Zelip">
+    <meta name="author" content="Brian Zelip">
+    <meta name="keywords" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@AbiSackmann">
+    <meta name="twitter:title" content="Contact Azellaz">
+    <meta name="twitter:image:alt" content="{{ site.tagline }}">
+    <meta name="twitter:description" content="Get in touch with Azellaz.com.">
+    <meta name="twitter:image" content="{{ site.base_url }}{{ site.images_dir }}IMG_0535.JPG">
+    <meta property="og:url" content="{{ site.base_url }}contact/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact Azellaz" />
+    <meta property="og:description" content="Get in touch with Azellaz.com." />
+    <meta property="og:image" content="{{ site.base_url }}{{ site.images_dir }}IMG_0535.JPG" />
+  </head>
+
+  <body>
+
+    <div class="ie-FlexContainerWrapper">
+      <div class="vh100 flex flex-column">
+
+        {% include header-product.html %}
+
+        <section class="flex-auto">
+          <div class="container">
+            <div class="mb3 flex flex-column align-items-center">
+              <div class="ie-border-box ie-max-w-100per sm-col-6">
+                <div class="p2 light-black">
+                  <h1 class="sm-mt0 center serif">Contact Azellaz</h1>
+                  <p class="serif">Email us at <span class="bold">{{ site.email }}</span> about our bags or an order you've placed.</p>
+                  <p class="serif">We're also online at <a href="{{ site.etsy }}" class="light-black">Etsy</a>, <a href="{{ site.instagram }}" class="light-black">Instagram</a>, and <a href="{{ site.github }}" class="light-black">GitHub</a>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {% include footer.html %}
+
+      </div>
+    </div>
+
+  </body>
+
+</html>
