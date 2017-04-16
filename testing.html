@@ -1,51 +1,10 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset="UTF-8">
-    <title>AZ test</title>
-    <link rel="stylesheet" href="css/dist/basscss@7.1.1.min.css">
-    <link rel="stylesheet" href="css/dist/font-awesome@4.7.0.CUSTOM.css">
-    <link rel="stylesheet" href="css/dist/az.css">
-  </head>
-
-  <body>
-
-    <div class="vh100 container mb1 md-mb0">
-
-      <div class="col col-12 md-col-7 p2">
-        <div class="sm-hide">
-          <div class="py2 mxn1 table">
-            <img src="images/launch-photos-edited-imageOptimized/IMG_0535.JPG" class="table-cell col-3 px1 product-thumbs thumb border pointer border-box">
-            <img src="images/launch-photos-edited-imageOptimized/IMG_0562.JPG" class="table-cell col-3 px1 product-thumbs thumb border pointer border-box">
-            <img src="images/launch-photos-edited-imageOptimized/IMG_0574.JPG" class="table-cell col-3 px1 product-thumbs thumb border pointer border-box">
-            <img src="images/blank_thumb_2200x2600.png" class="table-cell col-3 px1 product-thumbs thumb border-box">
-          </div>
-        </div>
-        <div>
-          <img src="images/launch-photos-edited-imageOptimized/IMG_0535.JPG">
-        </div>
-        <div class="sm-show">
-          <div class="py2 mxn1 table">
-            <img src="images/launch-photos-edited-imageOptimized/IMG_0535.JPG" class="table-cell col-3 px1 product-thumbs thumb border pointer border-box">
-            <img src="images/launch-photos-edited-imageOptimized/IMG_0562.JPG" class="table-cell col-3 px1 product-thumbs thumb border pointer border-box">
-            <img src="images/launch-photos-edited-imageOptimized/IMG_0574.JPG" class="table-cell col-3 px1 product-thumbs thumb border pointer border-box">
-            <img src="images/blank_thumb_2200x2600.png" class="table-cell col-3 px1 product-thumbs thumb border-box">
-          </div>
-        </div>
-      </div>
-
-      <div class="col col-12 md-col-5 p2 border">
-        <h1 class="m0 h2">Testing Test Tester</h1>
-        <p>$100.00</p>
-        <p>This is just a test!!</p>
-        <div class="mt4">
-          <button class="btn btn-outline">Add to Cart</button>
-        </div>
-      </div>
-
-    </div>
-
-  </body>
-
+<!DOCTYPE html><html>
+  <head>    <meta charset="UTF-8">    <title>AZ test</title>    <link href="https://unpkg.com/basscss@7.1.1/css/basscss.min.css" rel="stylesheet">
+    <style>      body,      .vh100 { min-height: 100vh; }      .py2 {        padding-top: 1rem;        padding-bottom: 1rem;      }      .table-fixed {        table-layout: fixed;        width: 100%;      }      .v-align-bottom { vertical-align: bottom; }      .v-align-top { vertical-align: top; }      .border-red { border-color: #FF4136; }      .align-items-end {        -webkit-box-align:end;        -ms-flex-align:end;        align-items:flex-end;      }      @media (min-width: 40em) {        .sm-align-items-start {          -webkit-box-align:start;          -ms-flex-align:start;          align-items:flex-start;        }      }    </style>  </head>
+  <body>
+    <div class="vh100 container">
+      <div class="col col-12 md-col-7 p2 border border-red">        <div class="sm-hide">          <div class="py2 mxn1 flex align-items-end sm-align-items-start">            <div class="col col-3 px1">              <img src="images/launch-photos-edited-imageOptimized/IMG_0535.JPG" class="border">            </div>            <div class="col col-3 px1">              <img src="images/launch-photos-edited-imageOptimized/IMG_0562.JPG" class="border">            </div>            <div class="col col-3 px1">              <img src="images/launch-photos-edited-imageOptimized/IMG_0574.JPG" class="border">            </div>            <div class="col col-3 px1">              <img src="images/blank_thumb_2200x2600.png" class="border">            </div>          </div>        </div>        <div>            <img src="images/launch-photos-edited-imageOptimized/IMG_0535.JPG">        </div>        <div class="sm-show">            <div class="py2 mxn1 flex align-items-end sm-align-items-start">              <div class="col col-3 px1">                <img src="images/launch-photos-edited-imageOptimized/IMG_0535.JPG" class="border">              </div>              <div class="col col-3 px1">                <img src="images/launch-photos-edited-imageOptimized/IMG_0562.JPG" class="border">              </div>              <div class="col col-3 px1">                <img src="images/launch-photos-edited-imageOptimized/IMG_0574.JPG" class="border">              </div>              <div class="col col-3 px1">                <img src="images/blank_thumb_2200x2600.png" class="border">              </div>            </div>        </div>      </div>
+      <div class="col col-12 md-col-5 p2 border border-red">        <h1 class="m0 h2">Testing Test Tester</h1>        <p>$100.00</p>        <p>This is just a test!!</p>        <div class="mt4">          <button class="btn btn-outline">Add to Cart</button>        </div>      </div>
+    </div>
+  </body>
 </html>
